@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+html,body{
+  margin:0;
+  height:100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.w3-container-descriere p{ 
+  text-align: justify;
+  font-family: 'Arial', sans-serif;
+  color:rgb(0, 0, 0);
+
+}
+.container{
+  padding-top:2px;
+  min-height:10%;
+  text-align:center;
+  background: #fff(255, 255, 255);
+}
+
+.headline{
+  text-align:center;
+ 
+}
+.headline  h1{
+    font-size:30px;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(0, 0, 0);
+  }
+
+.social-buttons{
+  display:inline-block;
+  background:  #fff(255, 255, 255);
+  padding:20px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  border-radius:30px;
+  text-align:center;
+  margin:10px 10px;
+}
+  
+/* Helper class to divide the icons */
+.social-margin {
+  margin-right: 15px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+.social-icon {
+  margin-bottom: 5px;
+   box-sizing: border-box;
+  -moz-border-radius: 138px;
+  -webkit-border-radius: 138px;
+  border-radius: 120px;
+  border: 5px solid ;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 1px;
+  padding-top: 11px;
+  transition: all 1s;
+}
+.social-icon:hover {
+    transform: rotate(720deg)scale(1.5);
+  }
+  /* Facebook Button Styling */
+ .facebook {
+    font-size: 22px;
+    padding-top: 9px;
+    border-color: #3b5998;
+    background-color: #3b5998;
+    color: #ffffff;
+   
+  }
+
+  .facebook:hover {
+    background-color: #ffffff;
+    color: #3b5998;
+  }
+  .instagram {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 2px;
+    border-color: #b0202c;
+    background-color: #b0202c;
+    color: #ffffff;
+    
+  }
+  .instagram:hover {
+    background-color: #ffffff;
+    color: #b0202c;
+  }
+  .gmail {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 2px;
+    border-color: #16ced4;
+    background-color: #16ced4;
+    color: #ffffff; 
+  }
+    .gmail:hover {
+        background-color: #ffffff;
+        color: #16ced4;
+    }
+.whatsapp{
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 2px;
+    border-color: #25d366;
+    background-color: #25d366;
+    color: #ffffff; 
+}
+
+.whatsapp:hover {
+    background-color: #ffffff;
+    color: #25d366;
+}
