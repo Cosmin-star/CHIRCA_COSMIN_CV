@@ -4,6 +4,37 @@ html,body{
   height:100%;
   font-family: 'Montserrat', sans-serif;
 }
+
+/* Stilizare container */
+#google_translate_element {
+  position: fixed;
+  top: 20px;
+  right: 80px; /* Ajustează valoarea pentru a muta butonul mai în stânga */
+  z-index: 999;
+}
+
+/* Restul stilurilor rămân aceleași */
+.goog-te-combo {
+  font-size: 14px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  width: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.goog-te-combo option {
+  font-size: 14px;
+}
+
+.goog-te-combo-arrow {
+  display: none;
+}
+
+
 .w3-container-descriere p{ 
   text-align: justify;
   font-family: 'Arial', sans-serif;
