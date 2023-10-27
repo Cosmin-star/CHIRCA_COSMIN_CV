@@ -151,3 +151,7 @@ a:active {
     background-color: #ffffff;
     color: #25d366;
 }
+
+.justify-text {
+  text-align: justify;
+}
